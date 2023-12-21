@@ -16,3 +16,8 @@ Tested only with Keycloak
 	config.Net.SASL.Enable = true
 	config.Net.SASL.Mechanism = sarama.SASLTypeOAuth
 	config.Net.SASL.TokenProvider = &btKafka.JWTBTokenProvider{Cfg: config}
+
+
+## References
+
+- damiannolan/sasl: Similar (this work is based on this source) but for client/secret based Oauth https://github.com/damiannolan/sasl
