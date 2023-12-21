@@ -21,3 +21,4 @@ Tested only with Keycloak
 ## References
 
 - damiannolan/sasl: Similar (this work is based on this source) but for client/secret based Oauth https://github.com/damiannolan/sasl
+- oauth2-proxy : Inspiration for JWT building https://github.com/oauth2-proxy/oauth2-proxy
